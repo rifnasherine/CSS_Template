@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Template</title>
+    <style>
+        .body{
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            padding: 0 5%;
+        }
+    </style>
+    <body>
+        <div class="header">
+            <div class="head">
+                <h1>
+                    <span style="color:#0982d8;">Travelling</span><span style="color:#f44336;">magic</span>
+                </h1>
+            </div>
+            
+            <div class="nav">
+                <ul>
+                    <li>Hotels</li><li>Car Rentals</li><li>Restaurants</li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <table width="100%" align="center">
+        <tbody>
+        <div class="second">
+            <img align="right" src="travel.png">
+            <div class="welcome">
+                <p><strong><I>
+                    <span style="color:#0982d8;">Welcome To</span><span style="color:#f44336;"> Travelling magic</span>
+                </strong></I></p>
+            </div>
+            <div class="slogan">
+                    <p>
+                        Your Adventure 
+                        Travel Expert 
+                    </p>
+            </div>
+            <div class="search">
+                <select>
+                    <option disabled selected>Choose</option>
+                    <option value="1">Paris</option>
+                    <option value="2">Maldives</option>
+                    <option value="3">Bali</option>
+                    <option value="4">India</option>
+                    <option value="5">Dubai</option>
+                    <option value="6">Australia</option>
+                </select>
+                <ion-icon name="caret-down-outline" style="position:relative; margin-left: -35px;"></ion-icon>
+            </div>
+            <div class="button">
+                <button class="explore-button">Explore</button>
+            </div>
+        </div>
+    </tbody>
+    </table>
+</head>
+<body>
+
+    <div class="desti">
+        <h1>Destinations</h1>
+        <p>Just for you. Because you are special to us!</p>
+    </div>
+    <table class="table" width="80%" align="center" >
+        <tbody>
+            <tr>
+                <td width="25%">
+                    <img src="paris.jpg" width="400px" height="300px"><br>
+                    <h1>Paris is a divine section of eternity</h1>
+                    <h2>Paris</h2>
+                    <p> 
+                        Paris, the City of Light, is a timeless blend of romance, art, and history. From the iconic Eiffel Tower to charming streets lined with cafés, every corner offers enchanting experiences. Rich in culture, Paris captivates the heart and inspires the soul</p>
+                    <button class="readmore">Read More</button>
+                </td>
+                <td width="25%">
+                    <img src="maldives.jpg" width="400px" height="300px">
+                    <h1>The sea is so blue it seems to stretch into infinity.</h1>
+                    <h2>Maldives</h2>
+                    <p>The Maldives is a tropical paradise featuring crystal-clear waters, pristine beaches, and luxurious overwater bungalows. Renowned for its vibrant marine life and stunning coral reefs, it offers a unforgettable experiences in an idyllic setting.</p>
+                    <button class="readmore">Read More</button>
+                </td>
+                <td width="25%">
+                    <img src="bali.jpg" width="400px" height="300px">
+                    <h1>Bali sunsets: a daily dose of magic</h1>
+                    <h2>Bali</h2>
+                    <p>Bali is a tropical paradise known for its stunning beaches, lush rice terraces, and vibrant culture. With its rich traditions, serene temples, and welcoming locals, Bali offers a unique blend of relaxation and adventure, making it a beloved destination for travelers worldwide.</p>
+                    <button class="readmore">Read More</button>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%">
+                    <img src="india.jpg" width="400px" height="300px">
+                    <h1>A place where color is doubly bright</h1>
+                    <h2>India</h2>
+                    <p>India is a land of rich history, vibrant culture, and diverse landscapes. From the bustling streets of its cities to the serene beauty of its temples and natural wonders, India captivates with its colors, traditions, and deep spirituality, offering a journey through time and emotion</p>
+                    <button class="readmore">Read More</button>
+                </td>
+                <td width="25%">
+                    <img src="australia.jpg" width="400px" height="300px">
+                    <h1>Adventure in every direction.</h1>
+                    <h2>Australia</h2>
+                    <center>
+                    <p>A vast continent of breathtaking natural beauty, from its sun-kissed beaches to the rugged Outback. It’s a land of adventure, where nature reigns supreme, and every horizon offers something new—whether it’s the Great Barrier Reef or the vibrant cities full of laid-back charm.</p>
+                </center>
+                <button class="readmore">Read More</button>
+                </td>
+                <td width="25%">
+                    <img src="dubai.jpg" width="400px" height="300px">
+                    <h1>Futuristic and timeless,that’s Dubai</h1>
+                    <h2>Dubai</h2>
+                    <p>Dubai is a dazzling city where modern skyscrapers meet desert landscapes. Known for luxury shopping, innovative architecture, and vibrant culture, it offers visitors extraordinary experiences and unforgettable adventures at every turn.</p>
+                    <button class="readmore">Read More</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer" align="center">
+        <h1>Contact Us</h1>
+        <p>Our Sales Team will you out ASAP!</p>
+        <form method="POST">
+            <label>Name</label>
+            <input type="text" required>
+            <label>Your Home Town</label>
+            <input type="text" required>
+            <label>Where would you like to go</label>
+            <select>
+                <option disabled selected>Choose</option>
+                <option value="1">Paris</option>
+                <option value="2">Maldives</option>
+                <option value="3">Bali</option>
+                <option value="4">India</option>
+                <option value="5">Dubai</option>
+                <option value="6">Australia</option>
+            </select>
+            <label>Contact Number</label>
+            <input type="text" maxlength="11" required>
+            <br>
+            <button type="submit" class="submit">Submit Interest</button>
+            <br> <br> <br>
+            <footer>&copy; 2024. All rights reserved.</footer>
+        </form>
+    </div>
+</body>
+</html>
